@@ -1,0 +1,43 @@
+body{
+	background: #ccc;
+	width: 900px;
+	margin: 0 auto;
+}
+.box{
+	display: inline-block;
+	border: 2px solid;
+}
+.cell{
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	padding: 10px;
+	border: 1px solid;
+	line-height: 20px;
+	text-align: center;
+}
+.white-bg{
+	background: white;
+}
+.bg{
+	background: #aaa;
+}
+.fix{
+	font-weight: bold;
+	cursor: default;
+}
+.variable{
+	cursor: pointer;
+	text-decoration: underline;
+}
+.keypad {
+  margin: 20px 0;
+}
+.keypad button {
+  margin: 0 10px;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+.active{
+	border-color: red;
+}
