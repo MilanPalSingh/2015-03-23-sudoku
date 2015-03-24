@@ -69,7 +69,7 @@ var validEntry= function(no){
 		};
 	};
 
-	rowValid = $activeCell.data('loc') / 9;
+	rowValid = Math.round(  $activeCell.data('loc') / 9  )  ;
 	console.log("row " +rowValid)
 	for (; rowValid < 9; rowValid++) {
 		if ( gameDataState[ rowValid ] == no ) {
